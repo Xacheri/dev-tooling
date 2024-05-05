@@ -82,7 +82,7 @@ POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-
+source /etc/zsh_command_not_found
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
