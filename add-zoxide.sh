@@ -2,4 +2,4 @@
 
 # Add zoxide to the shell
 sudo apt install zoxide
-echo 'eval "$(zoxide init Zsh)"' >> ~/.zshrc
+echo 'eval "$(zoxide init zsh)"' >> ~/.zshrc
