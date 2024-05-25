@@ -1,5 +1,5 @@
 #!/bin/zsh
 
 # Add zoxide to the shell
-sudo apt install zoxide
+sudo pacman -S zoxide
 echo 'eval "$(zoxide init zsh)"' >> ~/.zshrc

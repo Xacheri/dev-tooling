@@ -1,10 +1,10 @@
 #!/bin/zsh
 
 # Add zoxide to the shell
-sudo apt install zoxide
-echo 'eval "$(zoxide init Zsh)"' >> ~/.zshrc
+sudo pacman -S zoxide
+echo 'eval "$(zoxide init zsh)"' >> ~/.zshrc
 
 # Add neofetch to the shell
-sudo apt install neofetch
+sudo pacman -S neofetch
 
 

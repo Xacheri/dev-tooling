@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo apt-get install tmux
+sudo pacman -S tmux
 cp .tmux.conf ~/.tmux.conf
