@@ -82,7 +82,7 @@ POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-source /etc/zsh_command_not_found
+# source /etc/zsh_command_not_found
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -111,6 +111,6 @@ source /etc/zsh_command_not_found
 export LS_COLORS="rs=0:no=00:mi=00:mh=00:ln=01;36:or=01;31:di=01;34:ow=04;01;34:st=34:tw=04;34:pi=01;33:so=01;33:do=01;33:bd=01;33:cd=01;33:su=01;35:sg=01;35:ca=01;35:ex=01;32:"
 alias i="sudo pacman -S "
 alias u="sudo pacman -Syu "
-alias tmux a="tmux attach -t "
+alias a="tmux attach -t "
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
